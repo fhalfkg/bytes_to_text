@@ -7,7 +7,7 @@ Converter for DJMAX bytes
 ## Development
 - Clone the repository
 - Run `npm install`
-- Run `npm build` to make executable
+- Run `npm run build` to make executable
 
 ## Credits
 - bytes_to_text from [DMTQ-Tools](https://github.com/samnyan/DMTQ-Tools) by samnyan

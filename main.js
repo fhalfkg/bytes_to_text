@@ -71,7 +71,6 @@ function main() {
               let position = file.readInt32LE(currentOffset);
               cmd = file.readInt8(currentOffset += 4);
               currentOffset += 1;
-              console.log(cmd);
               switch (cmd) {
                 case 0: { // 트랙 시작
                   currentOffset += 8;
